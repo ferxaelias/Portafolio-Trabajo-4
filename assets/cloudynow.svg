@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" width="640" height="560" role="img" aria-labelledby="t d">
+<title id="t">Ilustración de CloudyNow</title>
+<desc id="d">Globo terráqueo con órbitas, una nube y estrellas sobre una retícula cartográfica monocroma.</desc>
+<defs>
+<radialGradient id="globe" cx=".34" cy=".3" r=".85"><stop offset="0" stop-color="#4a4b4f"/><stop offset=".55" stop-color="#1c1c1e"/><stop offset="1" stop-color="#070707"/></radialGradient>
+<linearGradient id="cloud" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b9bbbf"/></linearGradient>
+<radialGradient id="fade" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff"/><stop offset=".6" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff" stop-opacity=".14"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="m"><rect width="640" height="560" fill="url(#fade)"/></mask>
+<pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#fff" fill-opacity=".5"/></pattern>
+<clipPath id="disc"><circle cx="300" cy="275" r="150"/></clipPath>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<symbol id="star" viewBox="-10 -10 20 20"><path d="M0-10 L1.6-1.6 L10 0 L1.6 1.6 L0 10 L-1.6 1.6 L-10 0 L-1.6-1.6Z" fill="#fff"/></symbol>
+</defs>
+<rect width="640" height="560" fill="#0b0b0c"/>
+<rect width="640" height="560" fill="url(#dots)" mask="url(#m)"/>
+<circle cx="300" cy="275" r="250" fill="url(#halo)"/>
+
+<g fill="none" stroke="#fff" stroke-opacity=".16" stroke-width=".8" mask="url(#m)">
+<circle cx="300" cy="275" r="195"/><circle cx="300" cy="275" r="245"/><circle cx="300" cy="275" r="295"/>
+<line x1="0" y1="275" x2="640" y2="275"/><line x1="300" y1="0" x2="300" y2="560"/>
+</g>
+
+<g fill="none" stroke="#fff" stroke-opacity=".28" stroke-width=".7" transform="translate(96 440)">
+<ellipse rx="70" ry="40" transform="rotate(-18)"/><ellipse rx="52" ry="29" transform="rotate(-14)"/><ellipse rx="35" ry="19" transform="rotate(-8)"/><ellipse rx="19" ry="9" transform="rotate(-2)"/>
+</g>
+
+<g transform="translate(300 275) rotate(-24)" fill="none">
+<ellipse rx="255" ry="72" stroke="#fff" stroke-opacity=".75" stroke-width="1.1"/>
+</g>
+<g transform="translate(300 275) rotate(28)" fill="none">
+<ellipse rx="215" ry="52" stroke="#fff" stroke-opacity=".4" stroke-width=".9" stroke-dasharray="2 6"/>
+</g>
+
+<circle cx="300" cy="275" r="150" fill="url(#globe)"/>
+<g clip-path="url(#disc)" fill="none" stroke="#fff" stroke-width=".8">
+<g stroke-opacity=".3">
+<ellipse cx="300" cy="275" rx="150" ry="0.01"/>
+<ellipse cx="300" cy="275" rx="150" ry="48"/><ellipse cx="300" cy="275" rx="150" ry="96"/>
+<ellipse cx="300" cy="275" rx="48" ry="150"/><ellipse cx="300" cy="275" rx="100" ry="150"/>
+<line x1="300" y1="125" x2="300" y2="425"/>
+<line x1="150" y1="225" x2="450" y2="225" stroke-opacity=".5"/>
+<line x1="150" y1="325" x2="450" y2="325" stroke-opacity=".5"/>
+</g>
+<g stroke-opacity=".08" stroke-width=".6">
+<path d="M150 275 A150 150 0 0 0 450 275" transform="translate(0 0)"/>
+<path d="M200 380 L420 160M215 400 L440 175M235 420 L455 200M255 435 L460 235M280 445 L450 290" />
+</g>
+</g>
+<path d="M263 148 A150 150 0 0 0 150 275 A150 150 0 0 0 198 385" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.2"/>
+<circle cx="300" cy="275" r="150" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="1"/>
+
+<g transform="translate(300 275) rotate(-24)" fill="none">
+<path d="M-255 0 A255 72 0 0 0 255 0" stroke="#fff" stroke-opacity=".95" stroke-width="1.4"/>
+<g transform="translate(128 62)"><rect x="-5" y="-5" width="10" height="10" fill="#0b0b0c" stroke="#fff" stroke-width="1.4"/><rect x="-1.6" y="-1.6" width="3.2" height="3.2" fill="#fff" filter="url(#glow)"/></g>
+<circle cx="-255" cy="0" r="3.5" fill="#fff"/>
+</g>
+<g transform="translate(300 275) rotate(28)"><circle cx="-100" cy="-45" r="3" fill="#fff" filter="url(#glow)"/></g>
+
+<g>
+<g stroke="#0b0b0c" stroke-width="12" fill="#0b0b0c">
+<rect x="395" y="352" width="176" height="46" rx="23"/><circle cx="440" cy="352" r="32"/><circle cx="487" cy="327" r="45"/><circle cx="532" cy="352" r="30"/>
+</g>
+<g fill="url(#cloud)">
+<rect x="395" y="352" width="176" height="46" rx="23"/><circle cx="440" cy="352" r="32"/><circle cx="487" cy="327" r="45"/><circle cx="532" cy="352" r="30"/>
+</g>
+<g fill="none" stroke="#000" stroke-opacity=".18" stroke-width=".7">
+<path d="M410 384H556M420 389H540M432 379H562"/>
+</g>
+<path d="M452 306 A44 44 0 0 1 505 290" fill="none" stroke="#fff" stroke-width="2.2" stroke-opacity=".9" transform="translate(-4 -2)"/>
+</g>
+
+<g>
+<use href="#star" x="86" y="96" width="30" height="30" transform="translate(-15 -15)"/>
+<use href="#star" x="520" y="120" width="22" height="22" transform="translate(-11 -11)" opacity=".85"/>
+<use href="#star" x="560" y="238" width="14" height="14" transform="translate(-7 -7)" opacity=".7"/>
+<use href="#star" x="180" y="500" width="16" height="16" transform="translate(-8 -8)" opacity=".7"/>
+<use href="#star" x="458" y="472" width="12" height="12" transform="translate(-6 -6)" opacity=".6"/>
+<use href="#star" x="52" y="300" width="12" height="12" transform="translate(-6 -6)" opacity=".6"/>
+<circle cx="420" cy="70" r="1.8" fill="#fff"/><circle cx="130" cy="190" r="1.4" fill="#fff" opacity=".8"/><circle cx="590" cy="330" r="1.4" fill="#fff" opacity=".8"/><circle cx="340" cy="520" r="1.6" fill="#fff" opacity=".8"/>
+</g>
+
+<g stroke="#fff" stroke-opacity=".55" stroke-width=".8">
+<path d="M24 17v14M17 24h14"/><path d="M616 17v14M609 24h14"/><path d="M24 529v14M17 536h14"/><path d="M616 529v14M609 536h14"/>
+</g>
+<rect x=".5" y=".5" width="639" height="559" fill="none" stroke="#fff" stroke-opacity=".22"/>
+<g font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="10" letter-spacing="1.8" fill="#c9c9cc">
+<text x="44" y="28">SPACE APPS · 2026</text>
+<text x="596" y="28" text-anchor="end" fill-opacity=".6">13.69° N / 89.22° O</text>
+<text x="44" y="540" fill-opacity=".6">SAN SALVADOR</text>
+</g>
+</svg>
